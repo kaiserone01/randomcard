@@ -1,1 +1,43 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
+html {
+    height: 100%;
+}
+
+body {
+    background-color: green;
+}
+
+.cardcontainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+
+}
+
+.card {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 28em;
+    width: 20em;
+    background-color: white;
+    position: relative;
+}
+
+#iconoderecho{
+    transform: rotate(180deg);
+    position: absolute;
+    font-size: 90px;
+     bottom: 10px; 
+    right: 10px;
+    color: black;
+}
+
+#iconoizquierdo{
+    top: 10px;
+    left: 10px;
+    position: absolute;
+    font-size: 90px;
+    color: red;
+
+}
