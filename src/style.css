@@ -1,43 +1,38 @@
-/* @import "~bootstrap/dist/css/bootstrap.min.css"; */
-html {
-    height: 100%;
-}
+@import "~bootstrap/dist/css/bootstrap.min.css";
 
 body {
-    background-color: green;
-}
-
-.cardcontainer {
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-
+  background: green;
+  font-size: 50px;
 }
 
 .card {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 28em;
-    width: 20em;
-    background-color: white;
-    position: relative;
+  display: inline-block;
+  margin: auto;
+  height: 400px;
+  width: 250px;
+  margin-top: 20px;
+}
+.topSuit {
+  position: absolute;
+  top: 10px;
+  left: 15px;
 }
 
-#iconoderecho{
-    transform: rotate(180deg);
-    position: absolute;
-    font-size: 90px;
-     bottom: 10px; 
-    right: 10px;
-    color: black;
+.bottomSuit {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  transform: rotate(180deg);
 }
 
-#iconoizquierdo{
-    top: 10px;
-    left: 10px;
-    position: absolute;
-    font-size: 90px;
-    color: red;
+.number {
+  line-height: 400px;
+}
 
+.black {
+  color: black;
+}
+
+.red {
+  color: red;
 }
